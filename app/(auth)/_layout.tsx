@@ -2,10 +2,6 @@ import '@/global.css';
 import { Stack } from "expo-router";
 import React from "react";
 
-export const unstable_settings = {
-  initialRouteName: "(tabs)",
-};
-
 export default function RootLayout() {
   return <Stack screenOptions={{ headerShown: false }} />;
 }
